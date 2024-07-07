@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    </script>
+</head>
+<body>
+    <header>
+        <h1 id="name" onclick="startTyping()">A.sasi dharan</h1>
+        <p>Web Developer </p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="sasi.jpeg" alt=">A.sasi dharan">
+        <p>Hello! I'm A.sasi dharan, a passionate web developer with expertise in creating stunning websites and web applications. With a keen eye for design and a love for coding, I strive to deliver the best user experiences.</p>
+        <a href="sasi resume.pdf" class="cv-download" download>Download CV</a>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project One</h3>
+            <img src="todolist.png" alt="Project One">
+            <p>In this project, I developed a simple yet efficient to-do list application designed to help users manage their daily tasks effectively</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p><i class="fas fa-envelope"></i> Email: hiimsasidharan@gmail.com</p>
+        <p><i class="fas fa-phone"></i> Phone: 9087495453</p>
+        <div class="social-media">
+            <a href="https://www.instagram.com/invites/contact/?igsh=6foavm5308hu&utm_content=3wr20mq" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/sasi-dharan2002" target="_blank"><i class="linkedin"></i></a>
+            <a href="https://github.com/hiimsasi" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </section>
+
+    <section id="feedback">
+        <h2>Feedback</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="feedback">Feedback:</label>
+            <textarea id="feedback" name="feedback" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 A.sasi dharan</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
